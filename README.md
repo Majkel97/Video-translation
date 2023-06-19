@@ -1,6 +1,15 @@
-# Documentation of this project
+# Video translation
 
 You can use this project to create English subtitles and videos with English subtitles from a video with Polish transcription.
+
+## Steps
+
+1. Read all video (.mp4) files from the specified folder.
+2. Get audio and create .mp3 file.
+3. Transcribe the audio using OpenAI API.
+4. Translate the transcript from Polish to English using DeepL API.
+5. Generate timestamps for each sentence and save as .vtt file.
+6. Add subtitles to the video using FFmpeg.
 
 ## Installation
 
